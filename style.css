@@ -79,12 +79,14 @@ section h3 {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     background-color: aquamarine;
+    justify-content: space-evenly;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
 }
 
 .days .day {
     display: flex;
     justify-content: center;
-    border: 1px solid darkolivegreen;
     padding: 20px;
     color: darkolivegreen;
 }
